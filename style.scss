@@ -1026,13 +1026,13 @@ body{
 }
     .cuadro-l{
         &__front{
-            background-image: url('https://rawcdn.githack.com/ricardoolivaalonso/Codepen/43200238c3177b02a97423fa6cc23f8bfcc5c105/Room/cuadro-1.jpg');
+            background-image: url('./cuadro-1.png');
             background-color: $cuadro-1;
-            border: 1vw solid $cuadro-1;
+            // border: 1vw solid $cuadro-1;
 
             &::before{
                 content: '';
-                position: absolute;
+                // position: absolute;
                 top: -1vw;
                 left: -1vw;
                 width: 5vw;

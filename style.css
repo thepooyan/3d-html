@@ -2081,14 +2081,12 @@ body {
 }
 
 .cuadro-l__front {
-  background-image: url("https://rawcdn.githack.com/ricardoolivaalonso/Codepen/43200238c3177b02a97423fa6cc23f8bfcc5c105/Room/cuadro-1.jpg");
+  background-image: url("./cuadro-1.png");
   background-color: #D51E24;
-  border: 1vw solid #D51E24;
 }
 
 .cuadro-l__front::before {
   content: '';
-  position: absolute;
   top: -1vw;
   left: -1vw;
   width: 5vw;
