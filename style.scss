@@ -694,10 +694,11 @@ body{
                 -.125vw -.125vw 1vw rgba($neon-1, .5)
             ;
 
-            background-image: url('https://rawcdn.githack.com/ricardoolivaalonso/Codepen/43200238c3177b02a97423fa6cc23f8bfcc5c105/Room/gif.gif');
-            background-size: cover;
+            // background-image: url('https://rawcdn.githack.com/ricardoolivaalonso/Codepen/43200238c3177b02a97423fa6cc23f8bfcc5c105/Room/gif.gif');
+            background-image: url('./ezgif.com-gif-maker.gif');
+            background-size: 100%;
             background-repeat: no-repeat;
-            background-position: bottom;
+            background-position: top;
             opacity: .8;
         }
         animation: pantalla-tv .25s infinite alternate;
@@ -1027,8 +1028,9 @@ body{
     .cuadro-l{
         &__front{
             background-image: url('./cuadro-1.png');
-            background-color: $cuadro-1;
+            // background-color: $cuadro-1;
             // border: 1vw solid $cuadro-1;
+            background-size: 96%;
 
             &::before{
                 content: '';
@@ -1045,9 +1047,11 @@ body{
     .cuadro-r{
         left: 20vw;
         &__front{
-            background-image: url('https://rawcdn.githack.com/ricardoolivaalonso/Codepen/43200238c3177b02a97423fa6cc23f8bfcc5c105/Room/cuadro-2.jpg');
-            background-color: $cuadro-2;
-            border: .5vw solid $cuadro-2;
+            background-image: url('./Untitled-1.jpg');
+            // background-color: $cuadro-2;
+            // border: .5vw solid $cuadro-2;
+            background-size: 96%;
+
             &::before{
                 content: '';
                 position: absolute;
